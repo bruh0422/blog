@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>從寫程式到特殊選才</title>
+    <url>/recruit/</url>
+    <content><![CDATA[<h3 id="一、進入程式世界"><a href="#一、進入程式世界" class="headerlink" title="一、進入程式世界"></a>一、進入程式世界</h3><p>　　在升上高中之前的暑假（aka 會考後的暑假），因為時間太長，能玩的遊戲也都玩完了，所以決定要來找些事情做。</p>
+<p>　　當時整天泡在 <a class="link"   href="https://discord.com/" >Discord<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 上跟網友聊天，過程中接觸到不少 Discord Bot，其中最知名的莫過於 <a class="link"   href="https://mee6.xyz/" >MEE6<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，它有一個功能能夠記憶使用者的生日，並在當天發送訊息祝賀他生日快樂，想到這個功能，靈感就來了。這段期間 COVID-19 爆發，又剛好看到一張有關它的迷因圖，於是就創了一個機器人叫「新冠肺炎」，讓機器人能在它的生日發送訊息並祝它生日快樂。</p>
+<figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/posts/recruit/covid-19.png"
+                      alt="當時看到的迷因圖" width="50%"
+                ><figcaption>當時看到的迷因圖</figcaption></figure>
+
+<p>　　但都叫「機器人」了，沒有任何功能不合理吧？後來我開始去 YouTube 上找教學影片，找到 <a class="link"   href="https://www.youtube.com/@Proladon" >Proladon<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 大大的拍的<a class="link"   href="https://www.youtube.com/playlist?list=PLSCgthA1Anif1w6mKM3O6xlBGGypXtrtN" >播放清單<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，點開影片後，不管他寫了什麼，先抄就對了。</p>
+<p>　　經過了幾個小時的努力，在完全不懂任何程式語言的情況下，我成功將機器人啟動。看到機器人上線的當下真的又驚又喜，帶給我無比的成就感，這個成就感也驅使我繼續走下去。</p>
+<h3 id="二、深陷程式世界"><a href="#二、深陷程式世界" class="headerlink" title="二、深陷程式世界"></a>二、深陷程式世界</h3><p>　　做出了機器人的第一個指令 <code>=ping</code> 之後，我也做了自動回覆訊息那些基本功能，之後再學習 Cog 之類的 Discord Bot 的基礎知識。學著學著的過程中，不知不覺也把 Python 的基本語法學起來了。接下來的這段時間，每天都是盯著螢幕敲著鍵盤，繼續學習新東西。</p>
+<p>　　之後的某天與往常一樣，看著教學打著 Code，而那天正在學的內容是關於 json 檔案的讀取，於是我靈機一動，想到可以用它來儲存使用者資料，便開始製作經濟系統，資料就是用 json 來儲存。</p>
+<p>　　一開始的經濟系統只是想簡單實作練習一下 json 的用法，只有很基本的 <code>=work</code> 賺錢、<code>=save</code> <code>=withdraw</code> 存提款、<code>=rob</code> 搶劫這些指令。結果不知道為什麼，推出經濟系統後，機器人被加到越來越多伺服器裡面，直到突破 100 伺服器。這也是第一個里程碑，也是一個挑戰，機器人必須驗證才能被加到更多伺服器內。Discord 官方會問你一些問題，例如機器人的用途、功能等，特殊權限（他們稱為 Privileged Intents）還要經過進一步的審核，十分嚴謹，前前後後來回溝通了 30 幾次才成功拿到所有權限。</p>
+<p>　　都走到通過驗證這步，而且也累積了一定的使用者，在這邊放棄未免太可惜，於是我開始更認真學習新的技術，做出更多的指令，專注的方向當然就是經濟系統了，畢竟一般的指令（例如禁言、踢除及停權成員等）沒辦法跟其他機器人做出太大區隔，頂多就介面自己想一點花招，用更花俏罷了。</p>
+<p>　　其實在突破 100 伺服器的前後那段時間，我已經發現一位玩家對我的機器人有興趣，常常看到他在遊玩，後來我也將他納編入我的開發團隊。</p>
+<p>　　這期間也發生了很多事，例如機器人一開始是架在 Replit 上（Discord Bot 開發者必經的流程），但後來才發現它的資料一段時間後會自己回溯，所以我又找了一堆免費託管，但畢竟是免費託管，品質極為不穩定，甚至有發生過全部資料都消失的狀況。最後終於去買了付費託管，真的不愧是付費的，不論是品質與客服都比免費的好超多。</p>
+<p>　　之後就是一直開發機器人，寫著寫著就超過了 2000 伺服器，當時真的沒有想到會變到如此龐大。</p>
+<p>　　當然還有其他許多事情，這邊就不一一贅述了，詳細的歷史可以去看<a href="/tofucat-history">這篇文章</a>。</p>
+<h3 id="三、APCS"><a href="#三、APCS" class="headerlink" title="三、APCS"></a>三、APCS</h3><p>　　如果你的目標是資訊相關科系的話，APCS 一定要去考，有機會能考就多考幾次，考之前可以去讀吳邦一教授寫的 <a class="link"   href="https://drive.google.com/drive/folders/10hZCMHH0YgsfguVZCHU7EYiG8qJE5f-m?usp=drive_link" >AP325<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。</p>
+<p>　　在高中這段期間裡，我總共考了 3 次，最高成績是在高二時考到的「觀念 3 級 + 實作 3 級」，老實說沒做什麼準備，都是靠寫 Discord Bot 跟其他專案的過程中學到的知識去解題的。</p>
+<h3 id="四、決定特選"><a href="#四、決定特選" class="headerlink" title="四、決定特選"></a>四、決定特選</h3><p>　　考完 APCS 後發現這個成績能上一些國立學校，起初以為只有個申可以用，但是我的考試成績不怎麼理想。後來發現有特殊選才這條路，加上之前有做專案的經驗，我認為這條路再適合不過了。</p>
+<p>　　開始認真準備特選的時間是高二下學期，詢問了學校輔導老師及去 Google 上找前輩們的經驗後，發現我離特選的距離超級無敵遠，隨便抓一個人的經歷來看都比我好幾千幾萬倍。</p>
+<p>　　其實到這邊已經有放棄的念頭了，但是我轉頭看了一下我的模擬考成績單，再看看資工個申門檻，發現沒一間國立志願能填，如果我在這邊放棄，以後可能就與北車為伍了。想到這邊，目前眼下只有特選這條路可以走，那就衝吧！於是我開始沒日沒夜的整理資料，途中發現我的專長是程式開發，而非競程（網路上挖資料時發現大多數人都是競程較厲害），所以我把備審呈現的重心放在這邊，希望教授們能夠看到。</p>
+<h3 id="五、參加線下活動"><a href="#五、參加線下活動" class="headerlink" title="五、參加線下活動"></a>五、參加線下活動</h3><p>　　正在擔心沒什麼實際東西可以放備審的我，剛好在這時候有網友來詢問我要不要一起組隊參加比賽，可以來補補我空缺的「活動經歷」欄位，畢竟還是要多多接觸資訊圈的事物。</p>
+<p>　　這個活動是 <a class="link"   href="https://hackathon.sitcon.org/2024/" >SITCON Hackathon<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，是在開發 Discord Bot 過程中認識的網友邀請我一起組隊但一看到是連續兩天，地點又是在台北，沒獨自出過遠門又跨夜的我以為父母不會同意，結果一問之後，他們竟然同意了！繳完報名費後，拎著行李，拿著高鐵票，踏入月臺，開啟我的北漂之旅，這個活動也成為了我第一個參與的線下活動。</p>
+<p>　　比賽的目標是依照給定的主題寫出一個專案，而開發專案又是我擅長的項目，所以程式的架構及走向是由我主導。其實我們的專案在比賽的前幾天就有預先準備，比賽當天只做一些討論跟測試並小修小改，才不會手忙腳亂，可以在 <a class="link"   href="https://github.com/bruh0422/Food-Ordering" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 上找到我們的專案。</p>
+<figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/posts/recruit/hackathon.jpg"
+                      alt="SITCON Hackathon 2024"
+                ><figcaption>SITCON Hackathon 2024</figcaption></figure>
+
+<p>　　而且這種資訊類活動幾乎都會有社群攤位，又可以接觸到更多東西。</p>
+<figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/posts/recruit/hackathon_booth.jpg"
+                      alt="社群攤位"
+                ><figcaption>社群攤位</figcaption></figure>
+
+<p>　　在 Hackathon 活動期間，從其他人口中得知同一個暑假有 <a class="link"   href="https://coscup.org/2024/zh-TW/" >COSCUP<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，一樣是資訊類的活動，所以我又拎著行李，拿著高鐵票，再次踏入月臺，又一次的開啟我的北漂之旅。在 COSCUP 有許多議程，可以選擇有興趣的主題聆聽，印象中我參與了這些：</p>
+<ul>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/XWKCBM" >[Prime Session] Generalist real-time computer vision model<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/AEJHAC" >只有 Status page 還不夠! 講人話才知道 Infra 發生什麼事<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/F9Q8FJ" >從第一個 PR, 到千星專案<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/LZY3FD" >多客機上的 NAT 管理系統專案經驗分享<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/8N7NKQ" >一來開發一個 notion 吧, 多人即時共編筆記分享<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/93XRJG" >西洋棋盤上的 LLM - 用程式自動跟 ChatGPT 對弈吧<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/3YEB7Y" >簡單用 Chrome Extension 接 Gemini API (下 Prompt) 就能實作文章摘要工具參加 Google 百萬美金挑戰賽<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/SV8LGM" >精益求精: JVM 開發者的 Docker Image 最佳化指南<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/YW9VSM" >PostgreSQL Hour<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li><a class="link"   href="https://coscup.org/2024/zh-TW/session/URUWNK" >AI 時代的教育元宇宙<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+</ul>
+<p>　　它的<a class="link"   href="https://coscup.org/2024/zh-TW/session" >議程<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>真的非常多，能學到很多東西，而且 COSCUP 是免費的活動，有夠佛心。</p>
+<h3 id="六、投入特選"><a href="#六、投入特選" class="headerlink" title="六、投入特選"></a>六、投入特選</h3>
+  <div class="note p-4 mb-4 rounded-small info icon-padding">
+    <i class="note-icon fa-solid fa-info"></i><p>本章節的內容會比較偏向「經驗分享」而非「心得」 </p>
+
+  </div>
+
+<p>　　到這邊，也差不多到各校的簡章公佈時間，該參加的活動也參加了，已經可以開始寫備審。準備的時候記得要先去看每個學校的要求，例如報考資格等，每間學校要交的東西雖說大致都相同，但還是會有些許差異，當初差點因為粗心忘記準備東西而錯過報名時間。</p>
+<p>　　後來學校輔導室有邀請一樣是走特殊選才的學姐來分享他的經驗，在他的分享下，我加入了其他特選生開的 <a class="link"   href="https://line.me/ti/g2/G_t-_7LFIh0QAeV3BRVGkvnVBc3Sd1OImLUq6A?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" >LINE<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 跟 <a class="link"   href="https://discord.gg/mSEgSdEPgh" >Discord<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 群組，透過彼此的交流與討論，讓特選之路不再顯得孤單，同時大家也能互相激勵、切磋成長。</p>
+<h4 id="書審"><a href="#書審" class="headerlink" title="書審"></a>書審</h4><p>　　書審通常都是第一關，要先達到指定分數才會進入面試環節，資料的呈現就很重要。我一開始是先使用 <a class="link"   href="https://hackmd.io/" >HackMD<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 來打草稿，再使用 <a class="link"   href="https://www.canva.com/" >Canva<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 來進行正式編輯。</p>
+<p>　　我是在升高三的暑假開始打草稿的，打草稿的第一步，先把大章節列出來，之後再寫內容。以我特選資工系舉例，我列了以下幾個：</p>
+<ul>
+<li>簡歷</li>
+<li>自傳</li>
+<li>申請動機 &amp; 讀書計畫</li>
+<li>檢定成績</li>
+<li>比賽經歷</li>
+<li>活動經歷 &amp; 社群參與</li>
+<li>推薦函</li>
+<li>專案 &amp; 作品</li>
+</ul>
+<p>　　我認為這幾項已經能夠清楚呈現出我的成就，章節也分得夠明確，下一步就是開始寫內容了。</p>
+<p>　　畢竟這是草稿，在寫內容的時候，可以不用寫的很細，僅把你想要呈現的重點顯示出來即可，到時候正式編寫時再詳細敘述。寫的過程中，有些地方可能會需要圖片輔助，例如獎狀及活動照片等，這時候可以先去把要的圖片先找出來，到時候會省很多事。如果是紙本文件要掃描，情況允許請用影印機的掃描功能，盡量不要用手機拍，親測發現效果差很多。</p>
+<p>　　寫到暑假結束後也差不多告一個段落，下一步就是開始用 Canva 打正式版本。其實製作也沒有什麼訣竅，就是一直做就對了。</p>
+<p>　　如果你要投的學校不只一間，可以先把一份「模板」做出來，之後再針對那個學校要的東西改一下內容（可以使用 Canva 的「專案」功能分類），例如申請動機的「選擇 XX 大學的原因」，其實內容都一樣，只是改個校名而已。</p>
+<p>　　做完「模板」後，接下來就是依照各校的要求來編輯了。先把「模板」複製一份出來，開始修改裡面的東西，建議搭配著學校的簡章一起作業，這樣可以避免缺漏，例如有些學校要你交「在學證明 &amp; 在校成績」，有些學校會要求你每個章節分開等，看好學校的要求才不會錯失面試的機會。</p>
+<figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/posts/recruit/canva.png"
+                      alt="Canva 的「專案」功能"
+                ><figcaption>Canva 的「專案」功能</figcaption></figure>
+
+<p>　　經過長時間的編輯與修正後，已經幾乎完成了，這時候可以把整份資料拿給沒看過你備審的人閱讀一次，畢竟內容是你寫的，你很了解你想要表達什麼，但是其他人沒看過，要讓別人看得懂才叫「成功的備審」。學校的輔導老師是個好選擇，相信他們都已經看過好幾份學生的備審了，我拿給他們看後，直接被點出了好幾個能改進的點，更改之後也確實讓整體變得更加易讀。</p>
+<h4 id="報名"><a href="#報名" class="headerlink" title="報名"></a>報名</h4><p>　　大多數學校的報名費都落在 800 元附近，而我的策略是「亂槍打鳥」，只要是國立的而且資格有達標就報，到時候再看看哪間有上就去哪間。</p>
+<h4 id="面試"><a href="#面試" class="headerlink" title="面試"></a>面試</h4><p>　　這很重要，面試考驗的是你的臨場反應，到了考場一定會緊張，這時候只能靠多次的模擬面試來解決問題，一樣是找學校的輔導老師來幫助你練習。</p>
+<p>　　我也有將各校的面試問題整理出來，可以<a href="/recruit_interview">點擊這裡</a>查看。</p>
+<h3 id="七、放榜"><a href="#七、放榜" class="headerlink" title="七、放榜"></a>七、放榜</h3><p>　　先看結果：</p>
+<table>
+<thead>
+<tr>
+<th>學校</th>
+<th>學系</th>
+<th>名額 &#x2F; 報名人數</th>
+<th>書審成績 &#x2F; 面試成績</th>
+<th>加權總分</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>國立臺南大學</td>
+<td>資訊工程學系</td>
+<td>2 &#x2F; 51</td>
+<td>81.84 &#x2F; 79.25</td>
+<td>80.55</td>
+<td>備取 23</td>
+</tr>
+<tr>
+<td>國立臺灣師範大學</td>
+<td>資訊工程學系（一般生組）</td>
+<td>5 &#x2F; 83</td>
+<td>85.00 &#x2F; -</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立高雄大學</td>
+<td>資訊工程學系</td>
+<td>3 &#x2F; ?</td>
+<td>84.00 &#x2F; 80.67</td>
+<td>82.34</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立清華大學</td>
+<td>清華學院學士班甲組</td>
+<td>40 &#x2F; 721</td>
+<td>75.00 &#x2F; -</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立清華大學</td>
+<td>資訊工程學系 A 組</td>
+<td>6 &#x2F; 87</td>
+<td>85.50 &#x2F; 85.25</td>
+<td>85.33</td>
+<td>備取 17</td>
+</tr>
+<tr>
+<td>國立陽明交通大學</td>
+<td>資訊工程學系</td>
+<td>10 &#x2F; 109</td>
+<td>82.33 &#x2F; -</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立中山大學</td>
+<td>資訊工程學系</td>
+<td>3 &#x2F; 70</td>
+<td>忘了 &#x2F; 忘了</td>
+<td>不知道</td>
+<td>備取 7</td>
+</tr>
+<tr>
+<td>國立成功大學</td>
+<td>資訊工程學系 - 乙組</td>
+<td>4 &#x2F; 46</td>
+<td>83.20 &#x2F; 15.875</td>
+<td>29.34</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立臺中教育大學</td>
+<td>資訊工程學系</td>
+<td>3 &#x2F; ?</td>
+<td>84.00 &#x2F; 沒去</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立中興大學</td>
+<td>資訊工程學系</td>
+<td>1 &#x2F; 57</td>
+<td>80.00 &#x2F; -</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>國立高雄師範大學</td>
+<td>軟體工程與管理學系</td>
+<td>2 &#x2F; ?</td>
+<td>82.67 &#x2F; 83.33</td>
+<td>85.34</td>
+<td>備取 1（有備上）</td>
+</tr>
+<tr>
+<td>國立嘉義大學</td>
+<td>資訊工程學系</td>
+<td>3 &#x2F; 27</td>
+<td>257.50 &#x2F; 183.00</td>
+<td>88.71</td>
+<td>正取 2</td>
+</tr>
+</tbody></table>
+<p>　　記憶最深刻的是臺南大學，我原本預設它是保底的學校，結果成績出來，心都涼一半了，備取超級後面，開始懷疑這條路是不是真的適合我，但是因為是第一間面試的學校，成績不理想是在意料之內了，後面還有很多機會。後來面試的學校越來越多，我也漸漸習慣面試的緊張感，越到後面的學校就講得越順，成績也越來越好。</p>
+<p>　　最終高師我有備上，但在經過多方考慮之後，我還是在嘉大與高師之中選擇了嘉大。高師真的有點可惜，如果他不是叫軟體工程與管理學系而是資訊工程學系的話，我搞不好就會去那邊了。</p>
+<p>　　其實我本來沒有要報嘉大的，只是它的報名截止時間真的是超晚，晚到大多數學校放榜完都還可以報。也就是因為這樣，前面的學校陸續放榜發現不太妙才報嘉大的，結果沒想到變成正取。</p>
+<h3 id="八、後續"><a href="#八、後續" class="headerlink" title="八、後續"></a>八、後續</h3><p>　　嘉大放榜完，離學測還有整整兩個禮拜，而在學校的這兩個禮拜，每天看著同學們在為學測努力打拼，我卻坐在位子上放鬆，現在想想屬實有點殘忍。</p>
+<p>　　時間很快到了學測那一天，我真的是完全裸考的狀態，到考試前還在打神來也麻將，等到成績出來就能知道我有沒有辦法靠學測成績上國立資工系。</p>
+<p>　　哦對了，等到錄取通知單寄到你家後，就可以去 <a class="link"   href="https://www.dcard.tw/" >Dcard<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 進行身份驗證了，我當初就是用這樣過驗證的。</p>
+<h3 id="九、結語"><a href="#九、結語" class="headerlink" title="九、結語"></a>九、結語</h3><p>　　特殊選才這條路，或許不像一般升學管道那麼明確，過程中會遇到許多不確定性與挑戰，但正是這些經歷，能讓你更深刻認識自己，並將其中將熱情轉化為具體的成果。與其擔心自己不夠優秀，不如專注於挖掘自己的亮點，將過去累積的經驗和學習化作獨特的故事，勇敢的呈現給教授們看。</p>
+<p>　　準備特殊選才最重要的不是你參加了多少比賽、拿了多少獎項，而是你是否能夠清楚說明自己的學習歷程、成長軌跡以及未來的學習計畫。每個人的背景和優勢都不一樣，重點在於如何包裝自己的經驗，並展現出你對該學系的熱情與投入。</p>
+<p>　　如果你曾經懷疑自己是否足夠資格，記得：能夠踏上這條路本身就是一種勇氣。不要害怕失敗，因為每一次挑戰都是成長的機會。就算最終結果不如預期，這段過程累積的能力與心態，將會是你未來面對各種挑戰時最寶貴的資產。</p>
+<p>　　特選之路沒有標準答案，只有屬於你自己的故事。既然選擇了，就全力以赴吧！</p>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>豆腐貓咪的發展史</title>
+    <url>/tofucat-history/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>事件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2021&#x2F;12&#x2F;26</td>
+<td>創建機器人，命名為「新冠肺炎」。</br>MEE6 這個機器人可以在有人生日的時候標注他，並祝他生日快樂。而這天剛好是 COVID-19 被發現的第二年，於是就創了這個機器人讓 MEE6 可以標注他。</td>
+</tr>
+<tr>
+<td>2022&#x2F;01&#x2F;08</td>
+<td>成功啟動機器人並寫出第一個指令。</br>第一個指令是 <code>=ping</code>，可以查看機器人的延遲，確保機器人有在線上。</td>
+</tr>
+<tr>
+<td>2022&#x2F;01&#x2F;09</td>
+<td>新增 <code>=say</code> 指令。</br>這個指令可以讓機器人說出你想要讓他說的話，在製作這個指令的時候，我學到了如何在輸入指令的時候傳入參數，並讓後端的 Python 做處理。</td>
+</tr>
+<tr>
+<td>2022&#x2F;01&#x2F;09</td>
+<td>新增機器人自動回覆訊息。</br>當有人傳送訊息時，機器人會讀取該則訊息並使用 <code>if</code> 判斷式來判斷訊息內容是否有在回應列表中，如果有就會回覆指定訊息，這也是我第一次學習及使用到判斷式。</td>
+</tr>
+<tr>
+<td>2022&#x2F;01&#x2F;21</td>
+<td>學到 Unix 時間戳。</br>當時在別人的伺服器看到有人的訊息內嵌入了一個時間戳，深入了解後發現只要在訊息中插入類似於 <code>&lt;t:timestamp&gt;</code> 的格式，Discord 就會自動將它轉換成你所在地時區的時間。所以我就製作了一個 <code>=time</code> 指令，使用 <code>time.time()</code> 這個方法，取得目前的時間戳再將它傳送到 Discord。</td>
+</tr>
+<tr>
+<td>2022&#x2F;01&#x2F;22</td>
+<td>新增 <code>=meme</code> 指令。</br>這個指令可以隨機顯示一張圖片。</br>在這時候我學到了 <code>list</code> 這個資料型態，我先把所有的圖片連結放進一個 <code>list</code> 中，再用 <code>random.choice()</code> 隨機選擇一張來傳送到 Discord。</td>
+</tr>
+<tr>
+<td>2022&#x2F;02&#x2F;26</td>
+<td>新增 <code>=stickers</code> 指令。</br>Facebook 上有許多好看的貼圖，我想要在 Discord 中使用 (Discord 可以在伺服器中上傳自訂貼圖，但伺服器有最大上傳限制，且要在其他地方使用需要花錢解鎖)，於是我就把其中一個貼圖下載下來，以棋盤的方式，給予每個貼圖一個編號，想要使用的時候直接輸入編號貼圖就會顯示。</br>我在這時候學到了 <code>dict</code> 這個資料型態，在不知道這個東西前我是使用一堆 <code>if</code> 判斷式來寫，資料一多就非常難維護。但 <code>dict</code> 是一個 <code>key</code> 配一個 <code>value</code>，維護起來就簡單許多。</td>
+</tr>
+<tr>
+<td>2022&#x2F;02&#x2F;27</td>
+<td>學會 <code>embed</code> 用法。</br>相較於一般的訊息，<code>embed</code> 能進行更進階的排版，讓訊息變得更好看，從這時候開始的指令大多都以 <code>embed</code> 顯示。</td>
+</tr>
+<tr>
+<td>2022&#x2F;03&#x2F;02</td>
+<td>將機器人更名為「肺炎醬」。</br>新冠肺炎好像有點太難聽了，所以取了一個好聽一點的名字。</td>
+</tr>
+<tr>
+<td>2022&#x2F;04&#x2F;09</td>
+<td>初代經濟系統出現。</br>突然覺得機器人只有一個空殼在那邊好像有點無聊，所以開始加入一些小功能，也是在這個時候學到關於 json 檔案的知識，並用這個格式儲存資料，一個 Discord 帳號會對應到一個遊戲帳號。</td>
+</tr>
+<tr>
+<td>2022&#x2F;04&#x2F;14</td>
+<td>第一位玩家出現。</br>他是我的貴人，沒有他，這個機器人就不會有現在的規模。</br>就我所知，他是第一個把我機器人加進去其他伺服器的使用者，這位玩家也在他的伺服器中使用了經濟系統，增加了曝光，其他伺服器成員看到也陸續加入遊玩。後來他給了我很多關於機器人的建議，於是我就把策劃的工作交給他，也是我們團隊除了我以外的第一位成員。</br>發現有玩家後，就開始認真開發，將經濟系統變為我的主打功能。</td>
+</tr>
+<tr>
+<td>2022&#x2F;04&#x2F;16</td>
+<td>發生資料回溯。</br>我第一個遇到的難題。</br>當時是使用 <a class="link"   href="https://replit.com/" >Replit<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 這個平台架設我的機器人，但是只要經過一段時間，資料都會回溯。上了 Google 搜尋後發現好像是 Replit 的機制所導致的，於是我只能找尋其他方法解決。</td>
+</tr>
+<tr>
+<td>2022&#x2F;04&#x2F;17</td>
+<td>機器人有頭貼了！</br>是在我管理的 Fackbook 社團裡面的其中一個管理員幫我畫的。</td>
+</tr>
+<tr>
+<td>2022&#x2F;04&#x2F;19</td>
+<td>嘗試做出音樂系統。</br>但因為這時候我的知識量還不夠，所以只做出加入及離開頻道的功能，還不能播放音樂。</td>
+</tr>
+<tr>
+<td>2022&#x2F;05&#x2F;08</td>
+<td>第一個爬蟲程式。</br>當初在使用 DevTools 的時候，發現疾管署的疫情資料是從一個 json 中而來，於是我就使用 <code>requests</code> 模組，將那個 json 擷取下來，再將資料彙整到 Discord 中，讓使用者可以方便在那邊查詢疫情資料。</td>
+</tr>
+<tr>
+<td>2022&#x2F;05&#x2F;26</td>
+<td>做出伺服器管理功能。</br>之前的功能都與 Discord 沒有什麼關聯，都是娛樂性質，從這時候開始機器人就有了管理伺服器功能，伺服器管理者可以下指令控制機器人，執行將使用者踢出或禁言等動作。對我來說，相比於點擊按鈕，以下指令的方法會比較方便且快速。</td>
+</tr>
+<tr>
+<td>2022&#x2F;05&#x2F;27</td>
+<td>將機器人更名為「豆腐貓咪」。</br>這個名字的由來是個祕密。</td>
+</tr>
+<tr>
+<td>2022&#x2F;05&#x2F;27</td>
+<td>新增 <code>=rob</code> 指令。</br>這個指令可以偷取別人的遊戲幣，從這時候開始，經濟系統可以與其他玩家互動，增加可玩性，而不是自己一個人無聊的遊玩。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;10</td>
+<td>將代碼放置在 GitHub。</br>隨著機器人的規模越來越大，我也需要將代碼備份在其他地方，於是就在 GitHub 創了一個 Repository 並放在上面。</br>當時我還不會用 Git，所有檔案都是我一個一個手動上傳的。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;11</td>
+<td>創建支援伺服器。</br>在經歷過 Replit 資料回溯的問題後，我找了其他間免費託管，但畢竟是免費的，品質也不會好到哪裡去，而就在這天，發生了所有資料都消失的狀況，而且比當初 Replit 平台上的規模更大，於是就創建了支援伺服器，幫助玩家解決問題，我也可以在這裡發布最新訊息。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;11</td>
+<td>開啟防機器人驗證功能 (Captcha)。</br>當玩家一多，就會有我當初想不到的事情發生。有玩家寫了一個自動腳本，每隔一段時間會自己發送指令，自動獲得金錢。所以我在指令執行前加了三個按鈕，機器人會先要求你點擊其中一個，點擊錯誤就會跳出指令，否則就繼續執行，但這樣會有個弊端，腳本還是可以一直點選同一個按鈕，1&#x2F;3 的機率會成功。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;15</td>
+<td>做出音樂系統。</br>我使用 <code>youtube_dl</code> 這個模組從 YouTube 中搜尋指定的音樂，並抓取下來在 Discord 播放，完成了我一直想做的功能。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;16</td>
+<td>做出音樂系統的按鈕介面。</br>不然原本只能靠打指令來操作，現在有了按鈕之後可以直接像播放器一樣點擊，較為快速。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;22</td>
+<td>達到 100 個伺服器。</br>這也是一個對所有 Discord Bot 開發者的考驗，到了這個數目後，Discord 會要求你驗證機器人，要跟他們說明這個機器人的用途，且一些敏感功能 (接收成員狀態更新事件、接收 GUILD_MEMBERS 事件、接收訊息的內容) 還需要進一步闡述理由，在尚未通過驗證之前機器人都無法再被加到其他伺服器。</td>
+</tr>
+<tr>
+<td>2022&#x2F;06&#x2F;28</td>
+<td>新增 <code>=spotify</code> 指令。</br>因為驗證過程中，為了取得「接收 GUILD_MEMBERS 事件」的權限，需要做出一個讓 Discord 覺得創新的功能，於是我就串接了 Musixmatch 的 API，在 Discord 中顯示使用者目前正在聽的歌及歌詞，也成功拿到了權限。</td>
+</tr>
+<tr>
+<td>2022&#x2F;07&#x2F;14</td>
+<td>完成驗證程序。</br>前前後後跟官方溝通了 30 多次才終於驗證完成並拿到所有的權限，機器人旁邊也多了一個小勾勾寫著「認證機器人」。</td>
+</tr>
+<tr>
+<td>2022&#x2F;07&#x2F;21</td>
+<td>新增 <code>=slot</code> 指令。</br>這是第一個賭博類指令，模仿了拉霸機的模式，可以拿賺到的錢進去玩，後續也多了可以賺錢的遊戲指令。</br>想當然是使用遊戲幣了，我可不想因為非法賭博被關。</td>
+</tr>
+<tr>
+<td>2022&#x2F;07&#x2F;30</td>
+<td>加強防機器人驗證功能 (Captcha)。</br>加強最初防機器人驗證功能中的弊端，改為使用 <code>captcha</code> 模組生成一個寫著隨機數字的扭曲圖片，再讓使用者輸入。</td>
+</tr>
+<tr>
+<td>2022&#x2F;08&#x2F;06</td>
+<td>新增 <code>=coupon</code> 指令。</br>模仿了各大店家都會有的優惠卷系統，可以輸入得到的兌換馬來兌換遊戲幣。</td>
+</tr>
+<tr>
+<td>2022&#x2F;08&#x2F;06</td>
+<td>新增電子報系統。</br>我幫機器人創了一個電子郵件，使用者可以選擇訂閱電子報，機器人會在每月自動發送一個報告數據，裡面還夾帶著一個兌換碼。</td>
+</tr>
+<tr>
+<td>2022&#x2F;08&#x2F;13</td>
+<td>新增銀行系統。</br>每個人的銀行都有耐久度跟攻擊力等狀態，每項都可以花費遊戲幣升級。使用者可以攻擊其他玩家，被攻擊的玩家會損耗耐久度，耐久度變為 0 的時候會受到處罰，而攻擊者可以得到相對應的遊戲幣。從這時候開始，經濟系統就已經不再是單純的賺錢花錢遊戲，慢慢轉變為玩家之間的攻防戰爭。</td>
+</tr>
+<tr>
+<td>2022&#x2F;08&#x2F;13</td>
+<td>達到 200 個伺服器。</td>
+</tr>
+<tr>
+<td>2022&#x2F;09&#x2F;11</td>
+<td>變更機器人頭貼。</br>在我管理的其他社群中遇到了一位會畫畫的成員，就麻煩他幫我畫了一張豆腐貓咪的圖片，而那張圖片也成為了機器人的頭貼，他也進入了我團隊中的美術部門。</br><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/bruh0422/tofucat-image/refs/heads/master/tofucat/tofucat.png"
+                      alt="豆腐貓咪" width="50%"
+                ><figcaption>豆腐貓咪</figcaption></figure></td>
+</tr>
+<tr>
+<td>2022&#x2F;09&#x2F;24</td>
+<td>付費購買託管伺服器。</br>使用者人數開始多起來，也開始受不了之前各間免費伺服器的品質，於是就在網路上找了一間評價不錯的託管公司，花錢買了一個託管伺服器。</td>
+</tr>
+<tr>
+<td>2022&#x2F;10&#x2F;08</td>
+<td>達到 300 個伺服器。</td>
+</tr>
+<tr>
+<td>2022&#x2F;10&#x2F;10</td>
+<td>資料結構大更改。</br>在這之前，所有使用者的資料都是存在一個 json 檔案裡面，而當有多個使用者要同時讀寫檔案的時候，就會出現 race condition 的問題，所以我把每個使用者的資料都分別獨立出來成一個 json，並存在一個資料夾裡面，大幅降低了 race condition 的情形。</td>
+</tr>
+<tr>
+<td>2022&#x2F;10&#x2F;12</td>
+<td>關閉音樂系統。</br>在這個日期之前，有一些大型音樂機器人被迫關閉 (例如 Groovy)，原因是違反了 YouTube 的服務條款，我擔心我的機器人也被捲入這個風波，所以將音樂功能關起來。另一方面是因為音樂功能需要消耗的記憶體較多，而我購買的記憶體不太充足，無法承受。</td>
+</tr>
+<tr>
+<td>2022&#x2F;11&#x2F;13</td>
+<td>訂購豆腐貓咪悠遊卡。</br>為了感謝我的團隊，我購買了兩張悠遊卡，上面印著豆腐貓咪的圖案，寄過去送他們當謝禮。</td>
+</tr>
+<tr>
+<td>2022&#x2F;11&#x2F;13</td>
+<td>新增貓咪魔王。</br>經濟系統再升級，新增了一個魔王進來 (取名叫貓咪魔王)，玩家們要合力攻擊並打敗他，攻擊的過程中還可以得到獎勵，但銀行可能也會被魔王的技能攻擊而損失耐久度。</td>
+</tr>
+<tr>
+<td>2022&#x2F;11&#x2F;26</td>
+<td>新增對斜線指令的支援。</br>斜線指令可以讓使用者更方便使用指令，可以不用將完整的指令用法背起來，只需輸入指令名稱，Discord 就會提示後面要傳入的參數有什麼。</td>
+</tr>
+<tr>
+<td>2022&#x2F;12&#x2F;11</td>
+<td>將使用說明移到外部網站。</br>原本的使用說明是寫在 Discord 中，缺點就是沒辦法將排版處理好，於是就將使用說明全部移到 <a class="link"   href="https://www.gitbook.com/" >GitBook<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>，讓我可以更容易維護，使用者也可以更好查詢。</td>
+</tr>
+<tr>
+<td>2023&#x2F;01&#x2F;26</td>
+<td>達到 500 個伺服器。</td>
+</tr>
+<tr>
+<td>2023&#x2F;03&#x2F;06</td>
+<td>新增卡片系統。</br>以目前的系統來說，基本上就是誰的等級高，誰就佔上風，毫無遊戲性及變化可言，所以推出了卡片系統。玩家可以使用賺到的遊戲幣來抽卡，卡片分成了四個等級，每張卡片的等級、抽出機率皆不同，抽到之後可以裝備卡片，數量上限會隨著銀行等級上升而變多。每一張卡片都有自己不同的增益效果，例如銀行耐久度增加、攻擊力變高、使用特定指令時賺到的錢會變多等，而在這個版本中，我們首先推出了 24 張卡片。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;05</td>
+<td>更新卡片系統。</br>先舉個例子，兩張卡片的效果分別是「攻擊力 ×10」及「攻擊力 +5」，最佳的排序方法應該是先 +5 再 ×10，但因為舊版本程式的運作邏輯是「卡片按照我當時寫入的順序觸發」，假設我先寫入了第一張卡片，這樣一來它會比第二張卡片先觸發，而導致效益變差。更新之後機器人則會判斷玩家裝備卡片的順序來觸發，這樣玩家在裝備之前就需要再思考一下，怎麼讓效益最大化。</br>這時候也出現了各種玩法，有「攻擊派」(靠著一直攻擊其他玩家或貓咪魔王來賺錢，高風險高報酬)、「防守派」(防守「攻擊派」)、「農夫」(與世無爭，過著自己的生活，使用基本的賺錢指令來慢慢累積金錢)。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;08</td>
+<td>新增網頁查詢系統。</br>我使用了 Flask (後來轉換到 Quart) 當作框架，使用了基本的 HTML 語法編寫了一個小小的查詢系統，使用者可以在上面輸入 Discord ID，網頁會顯示查詢出來的資料 (有遊戲幣數量、銀行等級等資訊)。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;09</td>
+<td>更新網頁查詢系統。</br>現在也可以輸入伺服器 ID，網頁一樣會回傳相關的資料。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;14</td>
+<td>更新網頁查詢系統。</br>新增了一點 CSS 進去，也變更了 <code>404 Not Found</code> 的顯示畫面，變成貓咪魔王的背景。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;27</td>
+<td>新增隱私權條款及服務條款。</br>為了避免不必要的紛爭，於是寫出了這兩篇條款。</td>
+</tr>
+<tr>
+<td>2023&#x2F;04&#x2F;30</td>
+<td>新增 <code>=account</code> 指令。</br>應該是第一個 Discord Bot 擁有這個功能，我們發現有一些玩家會使用多個帳號遊玩經濟系統，可能每個帳號都有不同的用途，而要在各個帳號之間切換是一件很麻煩的事，於是就誕生了這個功能。玩家可以先將他的其他 Discord 帳號綁定到機器人上，綁定成功後就可以直接在機器人上使用這個指令切換，機器人會將你往後的操作當作是該帳號呼叫的，不用再進行繁瑣的登出登入動作。</td>
+</tr>
+<tr>
+<td>2023&#x2F;05&#x2F;07</td>
+<td>更新卡片系統。</br>將卡片增加到了 48 張。</td>
+</tr>
+<tr>
+<td>2023&#x2F;05&#x2F;20</td>
+<td>變更使用者建議的顯示方法。</br>在這之前，使用者提供的建議都只有我能看到，這樣就沒辦法收集社群的意見，變成只有我跟我的團隊在做決策。更改之後，每個使用者的建議都會公開顯示在一個頻道，並且下面會有「👍」、「👎」按鈕及一個討論串，社群可以一起參與討論，讓我們做出對大家最有利的決策。</td>
+</tr>
+<tr>
+<td>2023&#x2F;05&#x2F;24</td>
+<td>移除電子報系統。</br>因為使用者人數太少，加上發送的內容沒有新意，於是決定關閉。</td>
+</tr>
+<tr>
+<td>2023&#x2F;06&#x2F;11</td>
+<td>新增紀錄系統。</br>類似現實世界的銀行存摺，現在每一筆經濟系統的交易紀錄都會被紀錄起來 (最多 500 筆)，方便大家查詢。</td>
+</tr>
+<tr>
+<td>2023&#x2F;07&#x2F;02</td>
+<td>新增銀行防護模式。</br>類似一個保護新手的銀行防護罩，避免在他們手無寸鐵的時候被老玩家欺負，玩家可以在銀行等級低於指定值的時候開啟，期間會拿到一些優待，但無法跟其他玩家做交互。</td>
+</tr>
+<tr>
+<td>2023&#x2F;07&#x2F;04</td>
+<td>新增 Premium 系統。</br>開始自己賺錢了！如果玩家想要解鎖一些增強功能，可以花費新台幣進行儲值，解鎖的功能會依儲值的金額而定。</td>
+</tr>
+<tr>
+<td>2023&#x2F;07&#x2F;15</td>
+<td>更新卡片系統。</br>將卡片增加到了 72 張。</td>
+</tr>
+<tr>
+<td>2023&#x2F;07&#x2F;31</td>
+<td>達到 1000 個伺服器。</td>
+</tr>
+<tr>
+<td>2023&#x2F;08&#x2F;22</td>
+<td>新增購買協議。</br>為了避免使用者購買 Premium 後產生的紛爭。</td>
+</tr>
+<tr>
+<td>2023&#x2F;09&#x2F;17</td>
+<td>第一篇社群教學出現。</br>有熱心玩家為了新手寫了一篇 3000 多字的長文新手教學，能讓新手更快適應這個圈子，他也加入了我的團隊，成為了策劃組的其中一員。</td>
+</tr>
+<tr>
+<td>2023&#x2F;10&#x2F;11</td>
+<td>新增開發銀行功能。</br>基本上就是銀行的加強版，裡面可以升級爆擊倍率、增加卡片裝備數量、減少指令冷卻時間等。</td>
+</tr>
+<tr>
+<td>2023&#x2F;12&#x2F;26</td>
+<td>新增銀行位階。</br>一樣是為了新手而做的保護機制，位階高的不能攻擊位階低的玩家，避免剛加入就被打成蜂窩。</td>
+</tr>
+<tr>
+<td>2024&#x2F;01&#x2F;31</td>
+<td>新增最高紀錄系統。</br>機器人現在開始會紀錄使用者的最高紀錄，例如最高單次獲得金額、最高傷害等紀錄。推出了一段時間後發現，有玩家為了這個紀錄開始積極遊玩，想要站上世界第一。</td>
+</tr>
+<tr>
+<td>2024&#x2F;02&#x2F;18</td>
+<td>新增荒野亂鬥玩家資料查詢功能。</br>又串接了一個 API，因為發現社群中蠻多人在玩這個遊戲，所以乾脆就做了這個功能，可以直接在 Discord 中顯示你的遊戲資料，不用再打開遊戲截圖。</td>
+</tr>
+<tr>
+<td>2024&#x2F;03&#x2F;09</td>
+<td>新增數數字功能。</br>算是一個團隊合作遊戲，伺服器裡面的人要一起數數字，從 1 開始一直往上數，如果數錯 (數字錯誤或重複數數) 就會從頭開始，每天半夜會給予數字排名前 10 的伺服器獎勵。</td>
+</tr>
+<tr>
+<td>2024&#x2F;03&#x2F;23</td>
+<td>更新卡片系統。</br>將卡片增加到了 100 張。</br>這應該也是最後一次的卡片更新，因為幾乎能想到跟能做出來的增益都做了。</td>
+</tr>
+<tr>
+<td>2024&#x2F;05&#x2F;27</td>
+<td>訂購豆腐貓咪吊飾。</br>豆腐貓咪實在是太可愛了，所以就把它做成吊飾，我也可以把這些吊飾送給我朋友。</td>
+</tr>
+<tr>
+<td>2024&#x2F;07&#x2F;05</td>
+<td>增強貓咪魔王。</br>新增了劇毒值及一些技能。劇毒值就是每次受到貓咪魔王攻擊時會額外受到的傷害倍率，簡單來說就是增強貓咪魔王的攻擊傷害，不然他都沒有什麼威脅性。</td>
+</tr>
+<tr>
+<td>2024&#x2F;07&#x2F;11</td>
+<td>購買網域。</br>之前的網域是託管商提供的 subdomain，結果某天這個網域 Discord 說不安全，我就乾脆自己買一個網域，直接從根本解決問題。</br>我還創了兩個電子郵件地址，一個我自己使用 (<a class="link"   href="mailto:&#109;&#101;&#x40;&#x62;&#114;&#117;&#104;&#x30;&#x34;&#50;&#50;&#46;&#x78;&#121;&#x7a;" >me@bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)，另外一個當作機器人的支援郵件 (<a class="link"   href="mailto:&#115;&#117;&#112;&#112;&#111;&#x72;&#x74;&#x40;&#x74;&#x6f;&#102;&#117;&#99;&#97;&#x74;&#x2e;&#98;&#x72;&#x75;&#104;&#48;&#x34;&#x32;&#50;&#46;&#120;&#121;&#x7a;" >support@totucat.bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)。</td>
+</tr>
+<tr>
+<td>2024&#x2F;07&#x2F;24</td>
+<td>新增天然災害停止上班及上課情形查詢功能。</br>這時候是凱米颱風侵襲的時候，因為大部分時間我都在使用 Discord，如果要查詢停班停課資訊，還要打開瀏覽器去搜尋，太麻煩了，所以我就寫了一個爬蟲程式，將<a class="link"   href="https://www.dgpa.gov.tw/typh/daily/nds.html" >停班停課網頁<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>的資訊下載下來，再用 <code>beautifulsoup4</code> 這個模組擷取資訊，並顯示在 Discord 中。</td>
+</tr>
+<tr>
+<td>2024&#x2F;08&#x2F;18</td>
+<td>新增音樂功能。</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Discord 機器人</category>
+        <category>豆腐貓咪</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>特殊選才面試問題</title>
+    <url>/recruit_interview/</url>
+    <content><![CDATA[<p>依面試時間先後排序。</p>
+<h3 id="國立台南大學（備23）"><a href="#國立台南大學（備23）" class="headerlink" title="國立台南大學（備23）"></a>國立台南大學（備23）</h3><p>2 位教授，年齡看起來 40~55 歲。</p>
+<ul>
+<li>自我介紹</li>
+<li>英文還蠻厲害，你是怎麼學習的？</li>
+<li>你們學校去年有人考台南大學嗎？</li>
+<li>國中管樂團是吹什麼樂器的？</li>
+<li>還報了哪些學校？</li>
+<li>數學成績有點不理想？</li>
+<li>記憶最深刻的比賽？</li>
+<li>APCS 還有去考嗎？</li>
+</ul>
+<h3 id="國立成功大學（沒上）"><a href="#國立成功大學（沒上）" class="headerlink" title="國立成功大學（沒上）"></a>國立成功大學（沒上）</h3><p>沒有，他們是上機考。</p>
+<h3 id="國立中山大學（備7）"><a href="#國立中山大學（備7）" class="headerlink" title="國立中山大學（備7）"></a>國立中山大學（備7）</h3><p>團體面試，要自己帶筆電過去放簡報，教授會過去你旁邊聽你講。然後有兩組教授，所以要講兩次，每組約 1~2 位教授。</p>
+<ul>
+<li>第一組<ul>
+<li>你剛剛的那個白色畫面是什麼？</li>
+</ul>
+</li>
+<li>第二組<ul>
+<li>你還有自己買網域跟管理，看起來你對網管還蠻有興趣的，是什麼契機讓你接觸到這些東西？</li>
+</ul>
+</li>
+</ul>
+<h3 id="國立高雄大學（沒上）"><a href="#國立高雄大學（沒上）" class="headerlink" title="國立高雄大學（沒上）"></a>國立高雄大學（沒上）</h3><p>3 位教授，進去之後先由左到右回答白板上的問題，分別是：</p>
+<ul>
+<li>自我介紹及家庭狀況</li>
+<li>高中在學情況</li>
+<li>未來讀書計畫</li>
+</ul>
+<p>接下來就是教授提問時間。</p>
+<ul>
+<li>你 APCS 考？</li>
+<li>備審裡面那個夏季預選賽是什麼？</li>
+<li>有沒有考英檢？</li>
+<li>APCS 怎麼準備的？</li>
+<li>最常用的 Python 函式庫？</li>
+</ul>
+<p>題外話，感覺高大教授完全沒在看備審資料，明明 APCS 跟英檢成績都寫在裡面。</p>
+<h3 id="國立高雄師範大學（備1-有備上）"><a href="#國立高雄師範大學（備1-有備上）" class="headerlink" title="國立高雄師範大學（備1 有備上）"></a>國立高雄師範大學（備1 有備上）</h3><p>團體面試，3 位教授。教授拋出問題之後，考生輪流回答，但不會每次都從第一位考生開始答。</p>
+<ul>
+<li>自我介紹</li>
+<li>遇到問題怎麼解決？</li>
+<li>有沒有在碰演算法跟資料結構？</li>
+<li>高中覺得最困難的學科，怎麼克服？</li>
+</ul>
+<h3 id="國立清華大學（備17）"><a href="#國立清華大學（備17）" class="headerlink" title="國立清華大學（備17）"></a>國立清華大學（備17）</h3><p>有兩間教室，每間 2 個教授。</p>
+<p>第一間是自我介紹，面試前一個禮拜要先傳簡報過去系所，當天再放給教授看，報告完後教授會再問你問題。第一間的問題如下：</p>
+<ul>
+<li>你的經歷很豐富，你是怎麼學的？</li>
+<li>你做的那個 Discord Bot，具體有什麼功能？</li>
+<li>你說你有領導一個團隊，這個團隊是做什麼的？你們內部怎麼溝通？</li>
+<li>既然你的經歷已經如此豐富，為什麼還要上大學？大學可以給你什麼？</li>
+</ul>
+<p>第二間是專業問題，背後有一個白板可以讓你使用，總共 4 題，看能回答多少算多少。第二間的問題如下：</p>
+<ul>
+<li><p>完全連接多重圖，按特定順序移除點，問何時 1 與 v 不連通。（|E| &lt;&#x3D; 2|V|）</p>
+</li>
+<li><p>N 人分 K 組，任兩組之間的仇恨值為 F(A, B) &#x3D; min(f(a, b), ∀a∈A, b∈B)，使任兩組仇恨值最小值最大。</p>
+</li>
+<li><p>N*N 的棋盤，盤上有一些棋，可重複移除最上、下一列，左、右一行，每次移除不可超過 K 顆棋，要用最少次操作移除所有棋，你會怎麼移除？</p>
+</li>
+<li><p>總共有 N 層樓，從一樓開始需要到達指定樓層 K，總共有 M 個電梯從左往右排，電梯能從一個區間 [l, r] 搭並且只能搭到 r 樓，你只能在同一層由左往右走不能回頭。</p>
+</li>
+</ul>
+<h3 id="國立嘉義大學（正2）"><a href="#國立嘉義大學（正2）" class="headerlink" title="國立嘉義大學（正2）"></a>國立嘉義大學（正2）</h3><p>一樣有兩間教室，每間 2 個教授。</p>
+<p>第一間比較輕鬆，問題如下：</p>
+<ul>
+<li>自我介紹</li>
+<li>再詳細介紹一下你剛剛提到的專案</li>
+<li>你的手機是 Android 還是蘋果的？</li>
+<li>我看了一下你的備審，你的經歷很豐富，怎麼學習那些技術的？</li>
+<li>如果團隊中有分歧，你會怎麼處理？現實中有遇到過嗎？怎麼處理？</li>
+<li>講一下你的三個人格特質</li>
+</ul>
+<p>第二間就比較偏向專業跟邏輯問題了，但沒有像清大這麼硬，問題如下：</p>
+<ul>
+<li>簡短自我介紹</li>
+<li>數學有學到，如果要判斷一個數字是 3 的倍數，可以直接判讀該數字的數字和是否為 3 的倍數就可以了，這個原理是什麼？</li>
+<li>解釋一下氣泡排序？</li>
+<li>如果要實作氣泡排序，需要用什麼資料結構？</li>
+<li>你備審裡面有說去參加資安相關課程，主要學了什麼？</li>
+<li>解釋一下 SQL Injection，為什麼會有這個情況發生？</li>
+</ul>
+<p>嘉大教授感覺就有認真在看備審。</p>
+]]></content>
+      <categories>
+        <category>特殊選才</category>
+      </categories>
+  </entry>
+</search>
