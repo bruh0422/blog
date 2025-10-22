@@ -8,7 +8,7 @@
 <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/posts/recruit/covid-19.png"
+                     data-src="/images/posts/recruit/covid-19.webp"
                       alt="新冠肺炎的生日" width="50%"
                 ><figcaption>新冠肺炎的生日</figcaption></figure>
 
@@ -33,7 +33,7 @@
 <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/posts/recruit/hackathon.jpg"
+                     data-src="/images/posts/recruit/hackathon.webp"
                       alt="SITCON Hackathon 2024"
                 ><figcaption>SITCON Hackathon 2024</figcaption></figure>
 
@@ -41,7 +41,7 @@
 <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/posts/recruit/hackathon_booth.jpg"
+                     data-src="/images/posts/recruit/hackathon_booth.webp"
                       alt="社群攤位"
                 ><figcaption>社群攤位</figcaption></figure>
 
@@ -60,7 +60,7 @@
 </ul>
 <p>　　它的<a class="link"   href="https://coscup.org/2024/zh-TW/session" >議程<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>真的非常多，能學到很多東西，而且 COSCUP 是免費的活動，有夠佛心。</p>
 <h3 id="六、投入特選"><a href="#六、投入特選" class="headerlink" title="六、投入特選"></a>六、投入特選</h3>
-  <div class="note p-4 mb-4 rounded-small info icon-padding">
+  <div class="note p-4 mb-4 rounded-small markdown-body info icon-padding">
     <i class="note-icon fa-solid fa-info"></i><p>本章節的內容會比較偏向「經驗分享」而非「心得」 </p>
 
   </div>
@@ -87,7 +87,7 @@
 <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/posts/recruit/canva.png"
+                     data-src="/images/posts/recruit/canva.webp"
                       alt="Canva 的「專案」功能"
                 ><figcaption>Canva 的「專案」功能</figcaption></figure>
 
@@ -211,11 +211,37 @@
 <h3 id="八、後續"><a href="#八、後續" class="headerlink" title="八、後續"></a>八、後續</h3><p>　　嘉大放榜完，離學測還有整整兩個禮拜，而在學校的這兩個禮拜，每天看著同學們在為學測努力打拼，我卻坐在位子上放鬆，現在想想屬實有點殘忍。</p>
 <p>　　時間很快到了學測那一天，我真的是完全裸考的狀態，到考試前還在打神來也麻將，等到成績出來就能知道我有沒有辦法靠學測成績上國立資工系。</p>
 <p>　　哦對了，等到錄取通知單寄到你家後，就可以去 <a class="link"   href="https://www.dcard.tw/" >Dcard<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> 進行身份驗證了，我當初就是用這樣過驗證的。</p>
-<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>學測成績 </summary>
-              <div class='content'>
-              <table><thead><tr><th>國文</th><th>英文</th><th>數 A</th><th>數 B</th><th>自然</th></tr></thead><tbody><tr><td>10</td><td>10</td><td>6</td><td>5</td><td>10</td></tr><tr><td>均標</td><td>均標</td><td>均標</td><td>後標</td><td>均標</td></tr></tbody></table>
-              </div>
-            </details>
+<details class="blue" data-header-exclude>
+    <summary><i class="fa-solid fa-chevron-right"></i>學測成績 </summary>
+    <div class='content markdown-body'>
+      <table>
+<thead>
+<tr>
+<th>國文</th>
+<th>英文</th>
+<th>數 A</th>
+<th>數 B</th>
+<th>自然</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>10</td>
+<td>10</td>
+<td>6</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>均標</td>
+<td>均標</td>
+<td>均標</td>
+<td>後標</td>
+<td>均標</td>
+</tr>
+</tbody></table>
+
+    </div>
+  </details>
 
 <h3 id="九、結語"><a href="#九、結語" class="headerlink" title="九、結語"></a>九、結語</h3><p>　　特殊選才這條路，或許不像一般升學管道那麼明確，過程中會遇到許多不確定性與挑戰，但正是這些經歷，能讓你更深刻認識自己，並將其中將熱情轉化為具體的成果。與其擔心自己不夠優秀，不如專注於挖掘自己的亮點，將過去累積的經驗和學習化作獨特的故事，勇敢的呈現給教授們看。</p>
 <p>　　準備特殊選才最重要的不是你參加了多少比賽、拿了多少獎項，而是你是否能夠清楚說明自己的學習歷程、成長軌跡以及未來的學習計畫。每個人的背景和優勢都不一樣，重點在於如何包裝自己的經驗，並展現出你對該學系的熱情與投入。</p>
