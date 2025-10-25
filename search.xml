@@ -350,13 +350,6 @@
     <url>/github_student_pack/</url>
     <content><![CDATA[<p>　　最近學校社團要開始寫專案，想說搞個 GitHub Student Pack，結果申請的時候一直被拒絕。因為學生證上沒有入學日期，所以只能用在學證明這類比較正式的文件，但都還是申請不過，甚至連課表之類的都試了，都不行。</p>
 <p>　　結果只要把學生證 P 圖一下，自己打個入學日期跟英文姓名上去就過了。</p>
-<figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/posts/github_student_pack/id.webp"
-                      alt="P 圖後的樣子" width="50%"
-                ><figcaption>P 圖後的樣子</figcaption></figure>
-
 <p>　　具體流程是拍照 -&gt; 加個文字 -&gt; 把圖片傳到電腦 -&gt; 在手機申請 -&gt; 選「1. Dated school ID - Good」-&gt; 翻拍電腦畫面 -&gt; 過了。</p>
 <p>　　超級荒謬，我朋友還多花 10 塊冤枉錢去申請在學證明。</p>
 ]]></content>
@@ -649,7 +642,7 @@
 </tr>
 <tr>
 <td>2024&#x2F;07&#x2F;11</td>
-<td>購買網域。</br>之前的網域是託管商提供的 subdomain，結果某天這個網域 Discord 說不安全，我就乾脆自己買一個網域，直接從根本解決問題。</br>我還創了兩個電子郵件地址，一個我自己使用 (<a class="link"   href="mailto:&#x6d;&#101;&#64;&#98;&#x72;&#x75;&#x68;&#x30;&#x34;&#x32;&#50;&#x2e;&#120;&#121;&#122;" >me@bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)，另外一個當作機器人的支援郵件 (<a class="link"   href="mailto:&#115;&#x75;&#112;&#112;&#x6f;&#x72;&#116;&#64;&#x74;&#x6f;&#x66;&#x75;&#x63;&#x61;&#x74;&#x2e;&#x62;&#x72;&#x75;&#x68;&#48;&#x34;&#50;&#50;&#x2e;&#120;&#121;&#122;" >support@totucat.bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)。</td>
+<td>購買網域。</br>之前的網域是託管商提供的 subdomain，結果某天這個網域 Discord 說不安全，我就乾脆自己買一個網域，直接從根本解決問題。</br>我還創了兩個電子郵件地址，一個我自己使用 (<a class="link"   href="mailto:&#x6d;&#x65;&#x40;&#98;&#114;&#117;&#104;&#x30;&#52;&#50;&#50;&#x2e;&#x78;&#x79;&#x7a;" >me@bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)，另外一個當作機器人的支援郵件 (<a class="link"   href="mailto:&#115;&#117;&#x70;&#112;&#111;&#114;&#x74;&#x40;&#116;&#111;&#102;&#x75;&#99;&#97;&#x74;&#x2e;&#x62;&#114;&#117;&#x68;&#48;&#x34;&#50;&#50;&#46;&#120;&#x79;&#x7a;" >support@totucat.bruh0422.xyz<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>)。</td>
 </tr>
 <tr>
 <td>2024&#x2F;07&#x2F;24</td>
